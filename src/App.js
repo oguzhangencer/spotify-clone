@@ -1,12 +1,17 @@
-
+import Sidebar from "components/Sidebar";
+import Footer from "components/Footer";
+import Content from "components/Content";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <BrowserRouter>
+      <div className="wrapper">
+        <Sidebar />
+        <Content />
+      </div>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
