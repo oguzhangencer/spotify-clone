@@ -4,6 +4,7 @@ export default function Content() {
   return (
     <div>
       <Navbar />
+      Content
     </div>
   );
 }
