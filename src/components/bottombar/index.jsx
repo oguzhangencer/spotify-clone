@@ -1,3 +1,3 @@
 export default function BottomBar() {
-  return <div>Bottombar</div>;
+  return <div className=" h-20">Bottombar</div>;
 }
