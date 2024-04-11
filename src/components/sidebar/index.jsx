@@ -3,10 +3,13 @@ import logo from "../../img/logo.svg";
 import Menu from "./menu";
 import Playlists from "./playlists";
 import DownloadApp from "./downloadApp";
+import { useSelector } from "react-redux";
+import SidebarCover from "./sidebarCover";
 
 export default function Sidebar() {
+  const sidebar = useSelector((state) => state.player.sidebar);
   return (
-    <div className="w-60 py-6 flex flex-shrink flex-col">
+    <div className="w-60 py-6 flex flex-shrink-0 flex-col">
       <a href="home" className="mb-7 px-6">
         <img src={logo} alt="spotify" className="h-10" />
       </a>
@@ -40,6 +43,8 @@ export default function Sidebar() {
 
       <Playlists />
       <DownloadApp />
+
+      {sidebar && <SidebarCover />}
     </div>
   );
 }
