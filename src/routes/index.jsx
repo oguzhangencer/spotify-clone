@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Content from "~/components/content";
+import App from "~/App";
 import Collection from "~/views/collection";
 import Home from "~/views/home";
 import Search from "~/views/search";
@@ -7,7 +7,7 @@ import Search from "~/views/search";
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Content />,
+    element: <App />,
     children: [
       {
         path: "true",
