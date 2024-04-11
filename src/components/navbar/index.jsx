@@ -1,3 +1,11 @@
+import Auth from "./auth";
+import Navigation from "./navigation";
+
 export default function Navbar() {
-  return <div>Navbar</div>;
+  return (
+    <div>
+      <Navigation />
+      <Auth />
+    </div>
+  );
 }
