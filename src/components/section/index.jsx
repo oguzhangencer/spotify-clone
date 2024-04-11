@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function Section({ title, more = false }) {
+export default function Section({ title, more = false, items = [] }) {
   return (
     <section>
       <header className="flex items-center justify-between mb-4">
