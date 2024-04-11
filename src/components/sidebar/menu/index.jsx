@@ -7,7 +7,7 @@ function Menu() {
       <ul className="flex flex-col">
         <li>
           <NavLink
-            activeClassName="bg-active text-white"
+            // activeClassName="bg-active text-white"
             to={"/"}
             className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4"
           >
@@ -19,7 +19,7 @@ function Menu() {
         </li>
         <li>
           <NavLink
-            activeClassName="bg-active text-white"
+            // activeClassName="bg-active text-white"
             to={"/search"}
             className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4"
           >
@@ -31,7 +31,7 @@ function Menu() {
         </li>
         <li>
           <NavLink
-            activeClassName="bg-active text-white"
+            // activeClassName="bg-active text-white"
             to={"/collection"}
             className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4"
           >
