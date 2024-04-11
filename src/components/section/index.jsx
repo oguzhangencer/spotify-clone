@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import SongItem from "../songItem";
 
 export default function Section({ title, more = false, items = [] }) {
   return (
@@ -16,6 +17,11 @@ export default function Section({ title, more = false, items = [] }) {
           </NavLink>
         )}
       </header>
+      <div className="grid grid-cols-5 gap-x-6">
+        {items.map((item) => (
+          <SongItem item={item} key={item.id} />
+        ))}
+      </div>
     </section>
   );
 }
