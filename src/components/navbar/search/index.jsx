@@ -2,7 +2,7 @@ import { Icon } from "~/Icons";
 
 export default function Search() {
   return (
-    <div>
+    <div className="mr-auto ml-4 relative">
       <label
         htmlFor="search-input"
         className="text-black w-12 h-10 flex items-center justify-center absolute top-0 left-0"
