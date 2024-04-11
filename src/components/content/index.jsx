@@ -6,7 +6,7 @@ import Collection from "~/views/collection";
 
 export default function Content() {
   return (
-    <div className="flex-auto">
+    <div className="flex-auto overflow-auto">
       <Navbar />
       <div className="px-8 py-5">
         <Routes>
