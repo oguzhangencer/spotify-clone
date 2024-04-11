@@ -18,7 +18,7 @@ const routes = createBrowserRouter([
         element: <Search />,
       },
       {
-        path: "collections",
+        path: "collection",
         element: <Collection />,
       },
     ],
