@@ -8,7 +8,6 @@ function Menu() {
         <li>
           <NavLink
             activeClassName="bg-active text-white"
-            exact
             to={"/"}
             className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4"
           >
