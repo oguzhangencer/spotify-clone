@@ -5,14 +5,15 @@ import Playlists from "./playlists";
 import DownloadApp from "./downloadApp";
 import { useSelector } from "react-redux";
 import SidebarCover from "./sidebarCover";
+import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
   const sidebar = useSelector((state) => state.player.sidebar);
   return (
     <div className="w-60 py-6 flex flex-shrink-0 flex-col">
-      <a href="home" className="mb-7 px-6">
+      <NavLink to="/" className="mb-7 px-6">
         <img src={logo} alt="spotify" className="h-10" />
-      </a>
+      </NavLink>
       <Menu />
       <nav className="mt-6">
         <ul>
