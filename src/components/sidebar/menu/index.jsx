@@ -6,7 +6,7 @@ export default function Menu() {
       <ul className="flex flex-col">
         <li>
           <a
-            href="#home"
+            href="home"
             className="h-10 flex gap-x-4 items-center text-sm font-semibold text-white rounded hover:text-white px-4 bg-active"
           >
             <span>
@@ -17,7 +17,7 @@ export default function Menu() {
         </li>
         <li>
           <a
-            href="#search"
+            href="search"
             className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4 "
           >
             <span>
@@ -28,7 +28,7 @@ export default function Menu() {
         </li>
         <li>
           <a
-            href="#collection"
+            href="collection"
             className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4 "
           >
             <span>
