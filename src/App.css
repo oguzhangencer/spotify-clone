@@ -18,4 +18,8 @@
         height: calc(100% - theme('spacing.20'));
         @apply flex
     }
+
+    .scrollbar {
+        @apply scrollbar-thin scrollbar-thumb-green-700 scrollbar-track-gray-900
+    }
 }
