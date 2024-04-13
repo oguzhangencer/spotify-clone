@@ -7,7 +7,7 @@ export default function FullScreenPlayer({
   toggle,
   state,
   controls,
-  columeIcon,
+  volumeIcon,
 }) {
   const { current } = useSelector((state) => state.player);
 
